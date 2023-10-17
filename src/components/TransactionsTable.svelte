@@ -33,5 +33,3 @@
     {/each}
   </tbody>
 </table>
-
-<style src="./scss/main.scss" lang="scss" global></style>

@@ -43,5 +43,4 @@
   </div>
 </div>
 
-<style src="./scss/main.scss" lang="scss" global>
-</style>
+<style src="./scss/main.scss" lang="scss" global></style>
