@@ -1,17 +1,29 @@
 @charset "utf-8";
 
-@import "node_modules/bulma/sass/utilities/initial-variables";
+@import 'node_modules/bulma/sass/utilities/initial-variables';
 
 // Import a Google Font
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
 // Update Bulma's global variables
-$family-sans-serif: "Poppins", sans-serif;
+$family-sans-serif: 'Poppins', sans-serif;
 $primary: #f03774;
 
 // Update some of Bulma's component variables
 $control-border-width: 2px;
 
 // Import the rest of Bulma
-@import "node_modules/bulma/bulma";
+@import 'node_modules/bulma/bulma';
+
+:global(html) {
+  background-color: #FFFAF7;
+}
+
+.box {
+  border: #f03774 solid 1px;
+  background-color: #fefefe;
+}
+
+.title {
+  color: #6b1d9c;
+}

@@ -44,7 +44,4 @@
 </div>
 
 <style src="./scss/main.scss" lang="scss" global>
-  :global(html) {
-    background-color: hsla(253, 47%, 35%, 0.295);
-  }
 </style>

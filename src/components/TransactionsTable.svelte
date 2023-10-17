@@ -14,7 +14,7 @@
     <tr>
       <th>Index</th>
       <th>Hash</th>
-      <th>Transaction</th>
+      <th>Explorer</th>
     </tr>
   </thead>
   <tbody>
@@ -23,8 +23,10 @@
         <td>{index}</td>
         <td>{transaction.txID}</td>
         <td>
-          <a href={makeLink(transaction.txID)}>
-            {transaction.hex.slice(0, 20) + '...' + transaction.hex.slice(-20)}
+          <a target="_blank" href={makeLink(transaction.txID)}>
+            <span class="icon">
+              <i class="fas fa-link" />
+            </span>
           </a>
         </td>
       </tr>
