@@ -16,7 +16,7 @@ $control-border-width: 2px;
 @import 'node_modules/bulma/bulma';
 
 :global(html) {
-  background-color: #FFFAF7;
+  background: linear-gradient(180deg, #fffbf8 0%, #ffeae5 100%);
 }
 
 .box {
